@@ -29,5 +29,9 @@ function featureB()
 
 function featureA($a, $b)
 {
-    return $a + $b;
+    return $a - $b;
+}
+
+function featureC() {
+    $this->featureA(1, 2);
 }
