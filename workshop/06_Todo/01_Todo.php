@@ -27,8 +27,7 @@ function featureB()
     return true;
 }
 
-function featureA($a, $b, $c)
+function featureA($a, $b)
 {
-    // TODO: refactor this function
-    return $a * $b - $c;
+    return $b - $a;
 }
