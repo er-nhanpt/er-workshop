@@ -32,3 +32,7 @@ function featureA($a, $b, $c)
     // TODO: refactor this function
     return $a * $b - $c;
 }
+
+function featureC() {
+    $this->featureA(1, 2);
+}
