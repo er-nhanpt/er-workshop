@@ -21,3 +21,13 @@ namespace Todo1\JetBrains;
 // TODO: this is a longer todo comment.
 //  It spans over several lines
 //  but is treated as a single item.
+
+function featureB()
+{
+    return true;
+}
+
+function featureA($a, $b)
+{
+    return $b - $a;
+}
