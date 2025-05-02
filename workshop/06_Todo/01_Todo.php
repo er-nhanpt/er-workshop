@@ -26,3 +26,8 @@ function featureB()
 {
     return true;
 }
+
+function featureA($a, $b)
+{
+    return $a + $b;
+}
